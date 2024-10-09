@@ -1,0 +1,21 @@
+.toolbar {
+  background: black;
+  padding: 1em;
+  color: white;
+
+  @media(min-width: 1024px) {
+    padding: 1em 2em;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    .social-media-links {
+      .social-media-link {
+        padding: 0 0.5em;
+      }
+    }
+
+  }
+}

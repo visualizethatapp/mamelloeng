@@ -1,0 +1,38 @@
+.header {
+
+    &__content {
+        text-align: center;
+        padding: 2em 0;
+
+
+        .heading {
+            font-family: "Marck Script", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+
+            @media(min-width: 1280px) {
+                font-size: 84px;
+            }
+          
+      
+        }
+
+        .slogan {
+            font-size: 18px;
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+
+            @media(min-width: 1280px) {
+                font-size: 26px;
+            }
+            
+        }
+    }
+
+    .navigation {
+        padding: 1em 0;
+    }
+}
